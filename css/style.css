@@ -410,6 +410,7 @@ template {
 .header-menu__link {
   color: inherit;
   text-decoration: none;
+  text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
 }
@@ -530,7 +531,7 @@ template {
 }
 
 .hotel-info__description {
-  margin: 5px 0;
+  margin: 0;
 }
 
 .hotel-name {
@@ -557,6 +558,9 @@ template {
 .stars {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  height: 8px;
+  font-size: 8px;
+  line-height: 0;
 }
 
 .offer {
